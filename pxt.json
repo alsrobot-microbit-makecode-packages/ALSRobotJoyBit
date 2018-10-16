@@ -1,0 +1,13 @@
+{
+    "name": "JoyBit",
+    "dependencies": {
+        "core": "*"
+    },
+    "description": "micro:bit JoyBit游戏手柄 由哈尔滨奥松机器人科技股份有限公司（Alsrobot）开发、维护",
+    "icon": "./JoyBit.jpg",
+    "license": "MIT",
+    "files": [
+        "main.ts"
+    ],
+    "public": true
+}
