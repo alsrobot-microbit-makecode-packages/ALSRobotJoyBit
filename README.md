@@ -1,14 +1,53 @@
 # ALSRobotJoyBit
+The github address of the package is https://github.com/alsrobot-microbit-makecode-packages/ALSRobotJoyBit
+The maintenance staff of the package is https://github.com/bobolx
+
+This package is specially developed for the micro:bit JoyBit gamepad. For hardware details, please visit: http://www.alsrobot.cn/goods-868.html
+
+## Rocker
+// Use the rockerX() method to get the value of the rocker X-axis
+JoyBit.rockerX()
+
+// Use the rockerY() method to get the value of the Y-axis of the joystick
+JoyBit.rockerY()
+
+## Buzzer
+
+Use the myPlayTone() method to let the handle emit a tone. The tones include: do, re, mi, fa, sol, la, si, and the beat includes: 1/8, 1/4, 1/2, 1, 2, 4
+
+// Play tone do beat for full shot
+JoyBit.myPlayTone(ToneHzTable.do, BeatList.whole_beat)
+
+## 按钮
+
+Use the btnPressed() method to get the button pressed and raised.
+
+//The button on the left side of the middle of the handle is pressed
+JoyBit.btnPressed(btnList.cleft, eventList.pressed)
+
+//The button on the right side of the middle of the handle is raised
+JoyBit.btnPressed(btnList.cright, eventList.released)
+
+## Support
+
+* for PXT/microbit
+
+## License
+
+MIT
+
+
+# ALSRobotJoyBit
 软件包github地址为：https://github.com/alsrobot-microbit-makecode-packages/ALSRobotJoyBit
 软件包修改维护人员：https://github.com/bobolx
 
 该软件包专门为micro:bit JoyBit游戏手柄开发，硬件详细信息请访问：http://www.alsrobot.cn/goods-868.html
 
 ## 摇杆
-使用rockerX()方法获取摇杆X轴的值
+// 使用rockerX()方法获取摇杆X轴的值
 JoyBit.rockerX()
 
-使用rockerY()方法获取摇杆Y轴的值
+// 使用rockerY()方法获取摇杆Y轴的值
 JoyBit.rockerY()
 
 ## 蜂鸣器
