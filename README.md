@@ -18,7 +18,7 @@ Use the myPlayTone() method to let the handle emit a tone. The tones include: do
 // Play tone do beat for full shot
 JoyBit.myPlayTone(ToneHzTable.do, BeatList.whole_beat)
 
-## 按钮
+## Button
 
 Use the btnPressed() method to get the button pressed and raised.
 
@@ -37,7 +37,7 @@ JoyBit.btnPressed(btnList.cright, eventList.released)
 MIT
 
 
-# ALSRobotJoyBit
+# 奥松JoyBit游戏手柄
 软件包github地址为：https://github.com/alsrobot-microbit-makecode-packages/ALSRobotJoyBit
 软件包修改维护人员：https://github.com/bobolx
 
