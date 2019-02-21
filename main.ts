@@ -51,7 +51,7 @@ namespace JoyBit {
     /**
      * 摇杆横轴
      */
-    //% blockId="joy_x" block="摇杆X轴值"
+    //% blockId="joy_x" block="摇杆X轴的值"
     //% weight=100
     export function rockerX(): number {
 
@@ -62,7 +62,7 @@ namespace JoyBit {
     /**
      * 摇杆纵轴
      */
-    //% blockId="joy_y" block="摇杆Y轴值"
+    //% blockId="joy_y" block="摇杆Y轴的值"
     //% weight=99
     export function rockerY(): number {
         
