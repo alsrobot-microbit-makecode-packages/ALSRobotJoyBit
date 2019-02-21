@@ -54,8 +54,8 @@ namespace JoyBit {
     //% blockId="joy_x" block="摇杆X轴值"
     //% weight=100
     export function rockerX(): number {
-
-        return pins.analogReadPin(AnalogPin.P1);
+        //之前是P1改成P2
+        return pins.analogReadPin(AnalogPin.P2);
 
     }
 
@@ -65,8 +65,8 @@ namespace JoyBit {
     //% blockId="joy_y" block="摇杆Y轴值"
     //% weight=99
     export function rockerY(): number {
-        
-        return pins.analogReadPin(AnalogPin.P2);
+        //之前是P2改成P1
+        return pins.analogReadPin(AnalogPin.P1);
         
     }
 
