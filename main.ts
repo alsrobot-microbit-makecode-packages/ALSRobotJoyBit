@@ -55,7 +55,7 @@ namespace JoyBit {
     //% weight=100
     export function rockerX(): number {
 
-        return pins.analogReadPin(AnalogPin.P1);
+        return pins.analogReadPin(AnalogPin.P2);
 
     }
 
@@ -66,7 +66,7 @@ namespace JoyBit {
     //% weight=99
     export function rockerY(): number {
         
-        return pins.analogReadPin(AnalogPin.P2);
+        return pins.analogReadPin(AnalogPin.P1);
         
     }
 
