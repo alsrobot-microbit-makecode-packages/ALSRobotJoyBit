@@ -40,9 +40,9 @@ enum BeatList {
 }
 
 enum eventList {
-    //% block="Press"
+    //% block="PRESSED"
     pressed = 1,
-    //% block="Lift"
+    //% block="RELEASED"
     released = 0
 }
 
