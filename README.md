@@ -1,6 +1,6 @@
 # ALSRobotJoyBit
 The github address of the package is https://github.com/alsrobot-microbit-makecode-packages/ALSRobotJoyBit
-The maintenance staff of the package is https://github.com/bobolx
+The maintenance staff of the package is https://github.com/lzl525898
 
 This package is specially developed for the micro:bit JoyBit gamepad. For hardware details, please visit: http://www.alsrobot.cn/goods-868.html
 
@@ -39,7 +39,7 @@ MIT
 
 # 奥松JoyBit游戏手柄
 软件包github地址为：https://github.com/alsrobot-microbit-makecode-packages/ALSRobotJoyBit
-软件包修改维护人员：https://github.com/bobolx
+软件包修改维护人员：https://github.com/lzl525898
 
 该软件包专门为micro:bit JoyBit游戏手柄开发，硬件详细信息请访问：http://www.alsrobot.cn/goods-868.html
 
