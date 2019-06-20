@@ -1,16 +1,16 @@
 
 enum btnList{
-    //% block="中左"
+    //% block="M-LEFT"
     cleft = 8,
-    //% block="中右"
+    //% block="M-RIGHT"
     cright = 16,
-    //% block="右上"
+    //% block="R-TOP"
     rup = 12,
-    //% block="右下"
+    //% block="R-BOTTOM"
     rdown = 14,
-    //% block="右左"
+    //% block="R-LEFT"
     rleft = 13,
-    //% block="右右"
+    //% block="R-RIGHT"
     rright = 15
 }
 
@@ -40,9 +40,9 @@ enum BeatList {
 }
 
 enum eventList {
-    //% block="按下"
+    //% block="PRESSED"
     pressed = 1,
-    //% block="抬起"
+    //% block="RELEASED"
     released = 0
 }
 
@@ -51,7 +51,7 @@ namespace JoyBit {
     /**
      * 摇杆横轴
      */
-    //% blockId="joy_x" block="摇杆X轴的值"
+    //% blockId="joy_x" block="Joystick X value"
     //% weight=100
     export function rockerX(): number {
 
@@ -62,7 +62,7 @@ namespace JoyBit {
     /**
      * 摇杆纵轴
      */
-    //% blockId="joy_y" block="摇杆Y轴的值"
+    //% blockId="joy_y" block="Joystick Y value"
     //% weight=99
     export function rockerY(): number {
         
@@ -74,7 +74,7 @@ namespace JoyBit {
      * 播放音调
      */
     //% weight=89
-    //% blockId="joy_tone" block="播放音调 %tone| ，节拍 %beatInfo"
+    //% blockId="joy_tone" block="Play Tone %tone| for %beatInfo"
     export function myPlayTone(tone:ToneHzTable, beatInfo:BeatList): void {
 
         if(beatInfo == BeatList.whole_beat){
@@ -115,7 +115,7 @@ namespace JoyBit {
     }
 
     //% weight=79
-    //% blockId="btn_pressed" block="按钮 %btn|  %btnEvent"
+    //% blockId="btn_pressed" block="Button %btn|  %btnEvent"
     export function btnPressed(btn:btnList, btnEvent:eventList): boolean {
 
         if(btn == btnList.cleft){
