@@ -115,7 +115,7 @@ namespace JoyBit {
     }
 
     //% weight=79
-    //% blockId="btn_pressed" block="Button %btn|  %btnEvent"
+    //% blockId="joy_btn_pressed" block="Button %btn|  %btnEvent"
     export function btnPressed(btn:btnList, btnEvent:eventList): boolean {
 
         if(btn == btnList.cleft){
